@@ -15,7 +15,6 @@ ios/Pods/
 ios/build/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -25,10 +24,13 @@ ios/build/
 Thumbs.db
 
 # Env files
-.env
-.env.local
 
 # Private keys 
 *.pem
 *.key
 keystore.jks
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
